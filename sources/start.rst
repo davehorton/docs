@@ -17,7 +17,7 @@ Shippable uses Github as an auth provider, so you need a Github account to use u
 Choose the public or private repositories that you would like to build by clicking on the enable button from settings page and it will take you to the Github authorization page to give Shippable Read/Write permissions to your repos.      
 
 .. note::
-    We realize that most people do not want to give write access to their repo. However, we need write permissions to add deploy keys to your repos so that webhooks work. We do not touch anything else in the repo.
+    We realize that most people do not want to give others write access to their repo. However, we need write permissions to add deploy keys to your repos so that webhooks work. We do not touch anything else in the repo.
 
 After authorization, you will be authenticated by Github and redirected back to Shippable. An Ubuntu 12.04LTS Minion will be automatically provisioned for you. You are now ready to set up CI! 
 
